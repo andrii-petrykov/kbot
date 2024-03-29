@@ -55,6 +55,8 @@ to quickly create a Cobra application.`,
 				err = m.Send("I'm a result of Andrii's new development skills")
 			case "what can you do?":
 				err = m.Send("I can help Andrii to get more practice and 10 points as well")
+			case "investment":
+				err = m.Send("Nowadays the best investment is Ukraine's victory. Just do it! https://savelife.in.ua/en/donate-en/#donate-army-card-monthly")
 			}
 			return err
 		})
